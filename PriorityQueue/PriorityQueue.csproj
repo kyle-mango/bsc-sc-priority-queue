@@ -41,12 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HeapPriorityQueue.cs" />
     <Compile Include="IPriorityQueue.cs" />
     <Compile Include="PriorityItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueueOverflowException.cs" />
     <Compile Include="QueueUnderflowException.cs" />
     <Compile Include="SortedArrayPriorityQueue.cs" />
+    <Compile Include="SortedLinkedPriorityQueue.cs" />
+    <Compile Include="UnsortedArrayPriorityQueue.cs" />
+    <Compile Include="UnsortedLinkedPriorityQueue.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

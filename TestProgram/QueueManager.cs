@@ -12,6 +12,12 @@ namespace TestProgram
         {
             InitializeComponent();
 
+            CB_Implementation.Items.Add("Sorted Array Priority Queue");
+            CB_Implementation.Items.Add("Unsorted Array Priority Queue");
+            CB_Implementation.Items.Add("Unsorted Linked Priority Queue");
+            CB_Implementation.Items.Add("Sorted Linked Priority Queue");
+            CB_Implementation.Items.Add("Heap Priority Queue");
+
             // Hide control panels until an interface is selected
             Panel_Add.Visible = false;
             Panel_Actions.Visible = false;
@@ -28,12 +34,22 @@ namespace TestProgram
             {
                 InitSortedArrayQueue();
             }
+            else if (CB_Implementation.SelectedIndex == 1)
+            {
+                InitUnsortedArrayQueue();
+            }
         }
 
         private void InitSortedArrayQueue()
         {
             queue = new SortedArrayPriorityQueue<Person>(100);
             Lbl_Output.Text = "New sorted array priority queue created";
+        }
+
+        private void InitUnsortedArrayQueue()
+        {
+            queue = new UnsortedArrayPriorityQueue<Person>(100);
+            Lbl_Output.Text = "New unsorted array priority queue created";
         }
 
         private void Btn_AddQueue_Click(object sender, EventArgs e)

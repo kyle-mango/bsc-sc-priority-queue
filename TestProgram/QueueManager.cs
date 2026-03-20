@@ -12,6 +12,7 @@ namespace TestProgram
         {
             InitializeComponent();
 
+            // Add in the implementations to the dropdown menu
             CB_Implementation.Items.Add("Sorted Array Priority Queue");
             CB_Implementation.Items.Add("Unsorted Array Priority Queue");
             CB_Implementation.Items.Add("Unsorted Linked Priority Queue");

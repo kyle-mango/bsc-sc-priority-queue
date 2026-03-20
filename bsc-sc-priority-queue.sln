@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36705.20 d17.14
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11415.280 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityQueue", "PriorityQueue\PriorityQueue.csproj", "{38FAA494-6683-4B80-AFB6-EC58A4810BCD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProgram", "TestProgram\TestProgram.csproj", "{0CE5AD87-2D3D-4AE0-9CBB-0C00FF02A3F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityQueueTesting", "PriorityQueueTesting\PriorityQueueTesting.csproj", "{FF060646-C365-4A84-9676-86BFB3491ECD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0CE5AD87-2D3D-4AE0-9CBB-0C00FF02A3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CE5AD87-2D3D-4AE0-9CBB-0C00FF02A3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CE5AD87-2D3D-4AE0-9CBB-0C00FF02A3F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF060646-C365-4A84-9676-86BFB3491ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF060646-C365-4A84-9676-86BFB3491ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF060646-C365-4A84-9676-86BFB3491ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF060646-C365-4A84-9676-86BFB3491ECD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
